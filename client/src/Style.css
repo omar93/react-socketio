@@ -1,0 +1,30 @@
+.msgContainer {display: flex;}
+#root {
+    display: grid;
+    background-color: darkgray;
+    width: 100%;
+}
+
+.msg {
+    max-width: 100px;
+    word-wrap: break-word;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: aqua;
+}
+
+.myMsgContainer {
+    justify-content: flex-end;
+    margin-right: 20%;
+}
+
+.incMsgContainer {
+    margin-left: 20%;
+}
+
+.incMsg {
+    background-color:aqua;
+    border: 1px solid orange;
+    font-size: 20px;
+}
